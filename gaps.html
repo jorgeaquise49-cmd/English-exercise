@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Exercise</title>
+</head>
+
+<body>
+
+<h2 style="text-align: left;">Don't Forget your Hat</h2>
+
+<p>
+If you like spending time out in the (1)
+<input type="text" id="respuesta1" size="8">
+, it's important to remember that the human
+<br>
+head doesn't work very well in hot, cold or wet conditions. That's why a hat is a good
+<br>
+investment, and a single waterproof one with a brim will generally do the (2)
+<input type="text" id="respuesta2" size="8">
+<br>
+adequately enough.
+<br>
+<br>
+In cold climates, the head is (3) 
+<input type="text" id="respuesta3" size="8">
+heat all the time. As (4)
+<input type="text" id="respuesta4" size="8">
+as sixty per cent
+<br>
+of your body's heat is lost through the head and neck,(5)
+<input type="text" id="respuesta5" size="8">
+on which scientist you
+<br>
+believe. Clearly this heat loss needs to be prevented, but it's important to remember that
+<br>
+hats don't actually (6)
+<input type="text" id="respuesta6" size="8">
+you warm, they simply stop heat escaping.
+<br>
+<br>
+Just as important is the need to protect the top of your head and your neck from the effects
+<br>
+of (7)
+<input type="text" id="respuesta7" size="8">
+sunlight, and the brim of your hat will do this. If you prefer a baseball cap,
+<br>
+(8)
+<input type="text" id="respuesta8" size="8">
+buying one that has a drop down "tail" at the back to stop your neck (9)
+<input type="text" id="respuesta9" size="8">
+<br>
+sunburnt.
+</p>
+
+<button onclick="checkAnswers()">Check</button>
+
+<script>
+
+function checkAnswers() {
+
+    let answer1 = document.getElementById("respuesta1").value;
+    let answer2 = document.getElementById("respuesta2").value;
+    let answer3 = document.getElementById("respuesta3").value;
+let answer4 = document.getElementById("respuesta4").value;
+let answer5 = document.getElementById("respuesta5").value;
+let answer6 = document.getElementById("respuesta6").value;
+let answer7 = document.getElementById("respuesta7").value;
+let answer8 = document.getElementById("respuesta8").value;
+let answer9 = document.getElementById("respuesta9").value;
+   
+let resultado = "";
+ if (answer1.toLowerCase() == "open") {
+    resultado += "1. Correct!\n";
+} else {
+    resultado += "1. Incorrect!\n";
+}
+
+if (answer2.toLowerCase() == "job") {
+    resultado += "2. Correct!\n";
+} else {
+    resultado += "2. Incorrect!\n";
+}
+
+if (answer3.toLowerCase() == "sending out") {
+    resultado += "3. Correct!";
+} else {
+    resultado += "3. Incorrect!";
+}
+
+if (answer4.toLowerCase() == "much") {
+    resultado += "4. Correct!";
+} else {
+    resultado += "4. Incorrect!";
+}
+
+if (answer5.toLowerCase() == "depending") {
+    resultado += "5. Correct!";
+} else {
+    resultado += "5. Incorrect!";
+}
+
+if (answer6.toLowerCase() == "keep") {
+    resultado += "6. Correct!";
+} else {
+    resultado += "6. Incorrect!";
+}
+
+if (answer7.toLowerCase() == "bright") {
+    resultado += "7. Correct!";
+} else {
+    resultado += "7. Incorrect!";
+}
+
+if (answer8.toLowerCase() == "consider") {
+    resultado += "8. Correct!";
+} else {
+    resultado += "8. Incorrect!";
+}
+
+if (answer9.toLowerCase() == "getting") {
+    resultado += "9. Correct!";
+} else {
+    resultado += "9. Incorrect!";
+}
+
+alert(resultado);
+}
+</script>
+<p>
+<strong>Options (1):</strong>
+A) open &nbsp;&nbsp; B) free &nbsp;&nbsp; C) clear &nbsp;&nbsp; D) wide
+</p>
+
+<p>
+<strong>Options (2):</strong>
+A) job &nbsp;&nbsp; B) task &nbsp;&nbsp; C) role &nbsp;&nbsp; D) duty
+</p>
+
+<p>
+<strong>Options (3):</strong>
+A) giving away &nbsp;&nbsp; B) sending out &nbsp;&nbsp; C) dropping off &nbsp;&nbsp; D) running down
+</p>
+
+<p>
+<strong>Options (4):</strong>
+A) soon &nbsp;&nbsp; B) long &nbsp;&nbsp; C) well &nbsp;&nbsp; D) much
+</p>
+
+<p>
+<strong>Options (5):</strong>
+A) according &nbsp;&nbsp; B) regarding &nbsp;&nbsp; C) depending &nbsp;&nbsp; D) relating
+</p>
+
+<p>
+<strong>Options (6):</strong>
+A) maintain &nbsp;&nbsp; B) stay &nbsp;&nbsp; C) hold &nbsp;&nbsp; D) keep
+</p>
+
+<p>
+<strong>Options (7):</strong>
+A) sharp &nbsp;&nbsp; B) keen &nbsp;&nbsp; C) bright &nbsp;&nbsp; D) deep
+</p>
+
+<p>
+<strong>Options (8):</strong>
+A) consider &nbsp;&nbsp; B) recommend &nbsp;&nbsp; C) advise &nbsp;&nbsp; D) suggest
+</p>
+
+<p>
+<strong>Options (9):</strong>
+A) suffering &nbsp;&nbsp; B) going &nbsp;&nbsp; C) having &nbsp;&nbsp; D) getting
+</p>
+
+</body>
+</html>
